@@ -1,4 +1,4 @@
-﻿$dbstate = Get-DbaDatabaseState -SqlInstance "cncybook82\dev2017" -Database testdb;
+﻿$dbstate = Get-DbaDatabaseState -SqlInstance "yourinstance" -Database testdb;
 
 if($dbstate.Status -eq 'ONLINE')
 {
